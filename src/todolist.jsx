@@ -4,7 +4,7 @@ import {v4 as uuid} from 'uuid'
 
 import Input from './input.jsx'
 import Todos from './todos.jsx'
-import './app.css'
+import './App.css'
 
 const initialtodo = ()=>{
     const data = JSON.parse(localStorage.getItem('todos')) 
